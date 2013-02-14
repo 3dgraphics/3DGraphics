@@ -1,16 +1,19 @@
 //============================================================================
-// Name        : testproject.cpp
-// Description : Hello World in C++, Ansi-style
+// Name        : Main.cpp
+// Description : Opengl Driver
 //============================================================================
+
+#include <GL/glew.h>
+
+#include <GL/glut.h>
 
 #include <iostream>
 using namespace std;
 
 int main() {
+
+
 	cout << "Hello World!!!" << endl; // prints Hello World!!!
 
-	cout << "hi there.";
-
-	//comment
 	return 0;
 }
